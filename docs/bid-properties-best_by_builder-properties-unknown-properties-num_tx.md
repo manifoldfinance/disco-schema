@@ -1,0 +1,15 @@
+# Untitled integer in undefined Schema
+
+```txt
+undefined#/properties/best_by_builder/properties/<unknown>/properties/num_tx
+```
+
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                         |
+| :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [Bid.schema.json\*](../out/Bid.schema.json "open original schema") |
+
+## num\_tx Type
+
+`integer`
