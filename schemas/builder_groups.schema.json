@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "builderGroups": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "builderUnits": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "pubkey": {
+                      "type": "string"
+                    },
+                    "totalBlocks": {
+                      "type": "integer"
+                    },
+                    "uncensoredBlocks": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "pubkey",
+                    "totalBlocks",
+                    "uncensoredBlocks"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "pubkey": {
+                      "type": "string"
+                    },
+                    "totalBlocks": {
+                      "type": "integer"
+                    },
+                    "uncensoredBlocks": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "pubkey",
+                    "totalBlocks",
+                    "uncensoredBlocks"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "pubkey": {
+                      "type": "string"
+                    },
+                    "totalBlocks": {
+                      "type": "integer"
+                    },
+                    "uncensoredBlocks": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "pubkey",
+                    "totalBlocks",
+                    "uncensoredBlocks"
+                  ]
+                }
+              ]
+            },
+            "censoringPubkeys": {
+              "type": "integer"
+            },
+            "censors": {
+              "type": "string"
+            },
+            "description": {
+              "type": "object",
+              "properties": {
+                "_tag": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "_tag"
+              ]
+            },
+            "dominance": {
+              "type": "number"
+            },
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "totalPubkeys": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "builderUnits",
+            "censoringPubkeys",
+            "censors",
+            "description",
+            "dominance",
+            "id",
+            "name",
+            "totalPubkeys"
+          ]
+        }
+      ]
+    }
+  }
+}
