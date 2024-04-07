@@ -47,12 +47,13 @@ WIP
  
 Licensed under either of
 
-* [Universal Permissive License, Version 1.0](https://spdx.org/licenses/UPL-1.0.html)
-  [SPDX-License-Identifier: UPL-1.0 ](https://opensource.org/licenses/UPL)
-
-* [Apache License, Version 2.0](https://spdx.org/licenses/Apache-2.0.html)
-  [SPDX-License-Identifier: APACHE 2.0]( http://www.apache.org/licenses/LICENSE-2.0) 
-
+* [Universal Permissive License, Version 1.0](https://spdx.org/licenses/UPL-1.0.html) <br /> 
+  [SPDX-License-Identifier: UPL-1.0 ](https://opensource.org/licenses/UPL) 
+ <br />
+ 
+* [Apache License, Version 2.0](https://spdx.org/licenses/Apache-2.0.html) <br /> 
+  [SPDX-License-Identifier: APACHE 2.0](http://www.apache.org/licenses/LICENSE-2.0) 
+ <br />
 at your option.
 
  ### Contribution
