@@ -9,6 +9,10 @@
 
 ### Data Quality Issue
 
+
+428 Pubkeys == 141 Unique
+
+
 For example, take the 'rsync-builder' list of pubkeys, which there are listed 3 unique entries
 
 However 'rsync-builder' publishes the following:
